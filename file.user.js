@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        New script shaga.xyz
+// @name        glob
 // @namespace   Violentmonkey Scripts
 // @include     https://api.x.com/oauth/authorize?oauth_token*
 // @include     https://glob.shaga.xyz/quests
