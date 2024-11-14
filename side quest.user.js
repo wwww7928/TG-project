@@ -74,7 +74,7 @@ var 计时器4 = setInterval(function() {
 var 计时器5 = setInterval(function() {
     try {
         // 查找并点击元素
-        var element = document.querySelector("body > div:nth-child(9) > div > div > div > div > div:nth-child(3) > div > div > div.btn-container > button");
+        var element = document.querySelector("body > div:nth-child(8) > div > div > div > div > div:nth-child(3) > div > div > div.btn-container > button");
         if (element) {
             element.click();
             console.log('成功签到');
