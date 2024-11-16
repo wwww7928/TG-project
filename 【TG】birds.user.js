@@ -149,6 +149,7 @@
         const continueButton = document.querySelector("#root > div > div > main > div > div.fixed.bottom-0.left-0.right-0.bg-gradient-to-t.from-\\[\\#0a0036\\].from-\\[50\\%\\].to-transparent.pt-16 > div.absolute.bottom-8.left-0.right-0.px-\\[15px\\].z-\\[9999\\] > button");
         const worm = document.querySelector("#worm");
         const Wow = document.querySelector("#\\:rd\\: > footer > div > button");
+        const Eggcelect = document.querySelector("#\\:re\\: > footer > button");
       if (continueButton) {
             continueButton.click();
             console.log("开始");
@@ -160,6 +161,10 @@
         }
       if (Wow) {
             Wow.click();
+            return;
+        }
+      if (Eggcelect) {
+            Eggcelect.click();
             return;
         }
         console.log("未找到");
