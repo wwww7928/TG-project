@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        birds1.0
+// @name        【TG】birds1.0
 // @namespace   Violentmonkey Scripts
 // @match       https://birdx.birds.dog/*
 // @grant       none
@@ -164,6 +164,7 @@
             return;
         }
       if (Eggcelect) {
+           console.log("找到");
             Eggcelect.click();
             return;
         }
