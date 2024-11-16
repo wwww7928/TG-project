@@ -239,25 +239,32 @@
             button5.click();
         }
        if (day1) {
-          day1.click();
+         day1.click();
+        await delay(200);
         }
       if (day2) {
           day2.click();
+        await delay(200);
         }
       if (day3) {
           day4.click();
+        await delay(200);
         }
       if (day4) {
           day4.click();
+        await delay(200);
         }
       if (day5) {
           day5.click();
+        await delay(200);
         }
       if (day6) {
           day6.click();
+        await delay(200);
         }
       if (day7) {
           day7.click();
+        await delay(200);
         }
        if (Approve) {
           Approve.click();
