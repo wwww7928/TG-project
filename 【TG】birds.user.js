@@ -180,7 +180,7 @@
             console.log("程序已停止");
             return;
         }
-        const button1 = document.querySelector("#root > div > div > main > div > div > div.flex.flex-col.items-center.justify-center.relative.w-full.h-\\[420px\\].mt-4.mb-4 > a:nth-child(2) > img");
+        const button1 = document.querySelector('img[src="https://asset.birds.dog/img/earn1.png"]');
         const button2 = document.querySelector("#root > div > div > main > div > div > a > img");
         const button3 = document.querySelector("#root > div > div > main > div.pb-\\[100px\\] > div.flex.items-center.justify-center.py-3 > div > div.absolute.top-1\\/3.left-9.animate-wiggle.origin-bottom.z-10 > img");
         const button4 = document.querySelector("#root > section > ol > li:nth-child(3)");
@@ -220,7 +220,8 @@
             console.log("程序已停止");
             return;
       }
-        const button1 = document.querySelector("#root > div > div > main > div > div > div.flex.flex-col.items-center.justify-center.relative.w-full.h-\\[420px\\].mt-4.mb-4 > a:nth-child(2) > img");
+
+        const button1 = document.querySelector('img[src="https://asset.birds.dog/img/earn1.png"]');
         const button5 = document.querySelector("#root > div > div > main > div > div > div:nth-child(1) > a > img");
         const day1 = document.querySelector("#root > div > div > main > div > div > div > button:nth-child(1)");
         const day2 = document.querySelector("#root > div > div > main > div > div > div > button:nth-child(2)");
