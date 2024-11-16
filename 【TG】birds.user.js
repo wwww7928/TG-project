@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        birds 1.0
+// @name        birds1.0
 // @namespace   Violentmonkey Scripts
 // @match       https://birdx.birds.dog/*
 // @grant       none
